@@ -1,0 +1,58 @@
+                   0, reading data: Mem[         x] =>          x
+                   0, reading data: Mem[         0] => 2385444864
+                   0, reg_file[17] =>          2 (Port 1)
+                   0, reg_file[15] =>         21 (Port 2)
+                   0, reading data: Mem[         z] =>          x
+                   0, reading data: Mem[         2] =>        256
+                   1, reg_file[15] <=        256 (Write)
+                   0, PC:         0
+                   0, LW
+
+                   1, reading data: Mem[         4] =>  305201155
+                   1, reg_file[15] =>        256 (Port 2)
+                   1, reg_file[17] =>          2 (Port 2)
+                   1, PC:         4
+                   1, BEQ
+
+                   2, reading data: Mem[        20] =>  134217735
+                   2, reg_file[ 0] =>          0 (Port 1)
+                   2, reg_file[ 0] =>          0 (Port 2)
+                   2, PC:        20
+                   2, J
+
+                   3, reading data: Mem[        28] =>   36735008
+                   3, reg_file[17] =>          2 (Port 1)
+                   3, reg_file[16] =>          1 (Port 2)
+                   3, PC:        28
+                   3, wd:          3
+                   3, ADD
+
+                   4, reg_file[17] <=          3 (Write)
+                   4, reg_file[17] =>          3 (Port 1)
+                   4, reading data: Mem[        32] =>   38834210
+                   4, reg_file[18] =>          3 (Port 1)
+                   5, reg_file[18] <=          2 (Write)
+                   4, PC:        32
+                   4, wd:          2
+                   4, SUB
+
+                   5, reading data: Mem[        36] =>   38834213
+                   5, reg_file[18] =>          2 (Port 1)
+                   5, PC:        36
+                   5, wd:          3
+                   5, OR
+
+                   6, reg_file[18] <=          3 (Write)
+                   6, reg_file[18] =>          3 (Port 1)
+                   6, reading data: Mem[        40] => 2886860824
+                   6, reg_file[ 0] =>          0 (Port 1)
+                   6, reg_file[18] =>          3 (Port 2)
+                   7, writing data: Mem[        24] <=          3
+                   6, PC:        40
+                   6, SW
+
+                   7, reading data: Mem[        44] =>          x
+                   7, reg_file[ x] =>          x (Port 1)
+                   7, reg_file[ x] =>          x (Port 2)
+control_single unimplemented opcode  x
+                   7, End of Simulation
